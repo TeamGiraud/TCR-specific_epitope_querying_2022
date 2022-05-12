@@ -3,9 +3,14 @@
 1 - Before `TCRdist3`
 -------------------
 
-Input : Database, your TCRs
-Concatenate your TCRs with the DB's TCRs. It's more easy if your TCRs are in first in the table. If the table is to big for `TCRdist3`, you can split it into several parts.
-You have to remove all `NA`, empty boxes etc (things that `TCRdist3` does not recognize)
+Input : 
+
+* Public TCR database
+* your TCRs
+
+Concatenate your TCRs with the DB's TCRs. It's easier if your TCRs are at the top of the table. If the table is too big for `TCRdist3`, you can split it into several parts.
+
+You have to remove all `NA`, empty values, etc (things that `TCRdist3` does not recognize).
 
 
 
